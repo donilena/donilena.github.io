@@ -2,12 +2,22 @@ section {
   background-color: #ffffff;
 }
 
+html, body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
 body {
   font-style: normal;
   line-height: 1.5;
   font-weight: 400;
   color: #232323;
   position: relative;
+}
+body::-webkit-scrollbar {
+  display: none; /* removes scroll bar */
+  width: 0;
+  height: 0;
 }
 
 section,

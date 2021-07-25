@@ -1,6 +1,56 @@
 var APP_DATA = {
   "scenes": [
     {
+      "id": "2-outside",
+      "name": "outside",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.2996896389409294,
+        "pitch": -0.24938058858439582,
+        "fov": 1.2933824216075565
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.4567437584692797,
+          "pitch": 0.3807356316265569,
+          "rotation": 0,
+          "target": "3-street"
+        },
+        {
+          "yaw": -1.321006317419318,
+          "pitch": 0.3837842204554587,
+          "rotation": 0,
+          "target": "0-downstairs"
+        },
+        {
+          "yaw": -1.5385926156604892,
+          "pitch": 0.4073938126043437,
+          "rotation": 0,
+          "target": "1-upstairs"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
       "id": "0-downstairs",
       "name": "downstairs",
       "levels": [
@@ -88,56 +138,7 @@ var APP_DATA = {
       ],
       "infoHotspots": []
     },
-    {
-      "id": "2-outside",
-      "name": "outside",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2000,
-      "initialViewParameters": {
-        "yaw": -1.2996896389409294,
-        "pitch": -0.24938058858439582,
-        "fov": 1.2933824216075565
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.4567437584692797,
-          "pitch": 0.3807356316265569,
-          "rotation": 0,
-          "target": "3-street"
-        },
-        {
-          "yaw": -1.321006317419318,
-          "pitch": 0.3837842204554587,
-          "rotation": 0,
-          "target": "0-downstairs"
-        },
-        {
-          "yaw": -1.5385926156604892,
-          "pitch": 0.4073938126043437,
-          "rotation": 0,
-          "target": "1-upstairs"
-        }
-      ],
-      "infoHotspots": []
-    },
+    //there was 2-outside originally
     {
       "id": "3-street",
       "name": "street",

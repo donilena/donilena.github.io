@@ -20,6 +20,7 @@ body {
 /*
 body::-webkit-scrollbar {
   display: none; /* removes scroll bar */
+/*
   width: 0;
   height: 0;
 }

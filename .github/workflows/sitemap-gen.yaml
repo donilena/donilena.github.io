@@ -21,7 +21,6 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://donilena.github.io
-        path-to-root: assets
 
     - name: Output stats
       run: |

@@ -20,7 +20,7 @@ jobs:
       id: sitemap
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://donilena.github.io
+        base-url-path: https://donilena.eu
 
     - name: Output stats
       run: |
